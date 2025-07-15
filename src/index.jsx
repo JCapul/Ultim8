@@ -8,7 +8,7 @@ import './style.css';
 
 export function App() {
 	return (
-		<LocationProvider scope="/Ultim8">
+		<LocationProvider>
 			<Header />
 			<main>
 				<Router>

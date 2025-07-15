@@ -6,10 +6,10 @@ export function Header() {
 	return (
 		<header>
 			<nav>
-				<a href="/" class={url == '/' && 'active'}>
+				<a href="/Ultim8" class={url == '/Ultim8' && 'active'}>
 					Home
 				</a>
-				<a href="/404" class={url == '/404' && 'active'}>
+				<a href="/Ultim8/404" class={url == '/Ultim8/404' && 'active'}>
 					404
 				</a>
 			</nav>
